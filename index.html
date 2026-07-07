@@ -2,54 +2,62 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="hehe.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator | Ashish</title>
+
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-  <div class="outer">
-    <div>
-      <input type="text" id="display" value="0">
-    </div>
-    <div>
-      <button class="butt" >*</button>
-      <button class="butt" >/</button>
-      <button class="butt" >-</button>
-      <button class="butt" >+</button>
+
+    <div class="calculator">
+
+        <input
+            type="text"
+            id="display"
+            class="display"
+            value="0"
+            readonly
+        >
+
+        <div class="buttons">
+
+            <button class="btn operator">AC</button>
+            <button class="btn operator">DEL</button>
+            <button class="btn operator">^</button>
+            <button class="btn operator">/</button>
+
+            <button class="btn">7</button>
+            <button class="btn">8</button>
+            <button class="btn">9</button>
+            <button class="btn operator">*</button>
+
+            <button class="btn">4</button>
+            <button class="btn">5</button>
+            <button class="btn">6</button>
+            <button class="btn operator">-</button>
+
+            <button class="btn">1</button>
+            <button class="btn">2</button>
+            <button class="btn">3</button>
+            <button class="btn operator">+</button>
+
+            <button class="btn">0</button>
+            <button class="btn">.</button>
+            <button class="btn love">❤️</button>
+            <button class="btn equal">=</button>
+
+        </div>
+
+        <p class="footer">
+            Made with <span>❤️</span> by <strong>Ashish</strong>
+        </p>
 
     </div>
-    <div> 
-      <button class="butt">7</button>
-      <button class="butt">8</button>
-      <button class="butt">9</button>
-      <button class="butt">^</button>
-    </div>
-    <div> 
-      <button class="butt">4</button>
-      <button class="butt">5</button>
-      <button class="butt">6</button>
-      <button id="hehe" class="butt">Del</button>
-    </div>
-    <div>
-      <button class="butt">1</button>
-      <button class="butt">2</button>
-      <button class="butt">3</button>
-      <button id="red2" class="butt">=</button>
-      <button class="butt"><3</button>
-      <button class="butt">0</button>
-      <button class="butt">.</button>
-      <button id="red" class="butt">AC</button>
-      
-    </div>
-    <p class="belu" style="font-size: 10px;
-    margin-left: 155px;
-    margin-bottom: 5px;
-    margin-top: 8px;">Pookie<span class="span1"> Calci<span class="span2"> <3</span></span></p>
-  </div>
-   <script src="calci.js"></script>
+
+    <script src="script.js"></script>
+
 </body>
-
 
 </html>
